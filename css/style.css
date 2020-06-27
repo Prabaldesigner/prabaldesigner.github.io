@@ -1,0 +1,268 @@
+@import "service.css";
+@import "portfolio.css";
+
+@font-face {
+	font-family: 'Futura LT';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Futura LT'), url(../font/FuturaLT-Light.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Futura LT';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Futura LT'), url(../font/FuturaLT.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Futura LT';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Futura LT'), url(../font/FuturaLT-Bold.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'Futura LT';
+	font-style: normal;
+	font-weight: 800;
+	src: local('Futura LT'), url(../font/FuturaLT-Heavy.ttf) format('truetype');
+}
+
+body {
+	font-family: "Futura LT", sans-serif;
+	color: #000000;
+	font-size: 18px;
+}
+
+#navbar {
+}
+
+#navbar-menu .navbar-nav .nav-link {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.navbar-gap {
+	/*padding-top: 72px;*/
+}
+
+.view-all-link, .view-all-link:hover {
+	color: #000000;
+	text-decoration-line: underline;
+}
+
+/*.section-title-wrapper {
+	font-size: 47px;
+	width: 4em;
+	overflow: hidden;
+}*/
+
+.section-title {
+	font-weight: 800;
+	text-transform: uppercase;
+	/*width: 2em;
+	display: flex;
+	justify-content: center;*/
+	/*position: absolute;*/
+	/*width: 100vw;*/
+	height: 100%;
+
+	/*overflow: hidden;*/
+	font-size: 30px;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+@media (min-width: 992px) {
+
+	.section-title {
+		font-size: 47px;
+		align-items: center;
+		white-space: nowrap;
+		display: flex;
+		justify-content: center;
+		width: 4em;
+	}
+
+	.section-title-right > div {
+		transform: rotate(90deg);
+	}
+
+	.section-title-left > div {
+		transform: rotate(-90deg);
+	}
+
+	.section-title > div {
+		display: inline-block;
+	}
+}
+
+#section-about .section-title {
+	color: #ffffff;
+	/*width: 4em;*/
+}
+
+#section-about {
+	background-color: #2f2f2f;
+}
+
+#section-about .embed-responsive-user-photo {
+	padding-top: 112.5%;
+}
+
+@media (min-width: 992px) {
+
+	#section-about .embed-responsive-user-photo {
+		padding-top: 65%;
+	}
+}
+
+.user-photo {
+	object-fit: cover;
+}
+
+@media (min-width: 992px) {
+
+	#section-about .user-photo {
+		padding-left: 48px;
+	}
+}
+
+#section-about .introduction {
+	background-color: #606060;
+	padding: 20px;
+	width: calc(100% - 2 * 37px);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -125px;
+	position: relative;
+}
+
+#section-about .introduction-wrapper {
+	background-color: #ffffff;
+}
+
+@media (min-width: 992px) {
+
+	#section-about .introduction {
+		position: absolute;
+		top: calc(50% - 273px/2);
+		width: 518px;
+		height: 283px;
+		max-width: 100%;
+		padding: 48px;
+		margin-top: 0;
+	}
+}
+
+#section-about .salutation {
+	color: #ffffff;
+	font-weight: 800;
+	font-size: 20px;
+	letter-spacing: 0.05em;
+}
+
+@media (min-width: 992px) {
+
+	#section-about .salutation {
+		font-size: 25px;
+	}
+}
+
+#section-about .name {
+	font-weight: 800;
+	font-size: 32px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #FAFF00;
+}
+
+@media (min-width: 992px) {
+
+	#section-about .name {
+		font-size: 45px;
+	}
+}
+
+#section-about .profession-list .profession {
+	color: #FAFF00;
+
+	font-size: 29px;
+	line-height: 40px;
+	text-align: right;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+
+	color: #FAFF00;
+}
+
+#section-contact {
+	background-color: #2f2f2f;
+	color: #ffffff;
+}
+
+#section-contact .contact-detail {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	/*justify-content: center;*/
+	padding-top: 32px;
+	padding-bottom: 32px;
+	font-size: 20px;
+}
+
+@media (min-width: 992px) {
+
+	#section-contact .contact-detail {
+		padding-left: 100px;
+	}
+}
+
+#section-contact .contact-detail .heading {
+	/*font-size: 20px;*/
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #a0a0a0;
+}
+
+#section-contact .contact-detail .heading:not(:first-child) {
+	margin-top: 20px;
+}
+
+#section-contact iframe {
+	display: block;
+	max-width: 100%;
+}
+
+#footer {
+	font-size: 14px;
+	margin-bottom: 50px;
+}
+
+#footer .container {
+}
+
+#footer .divider {
+	margin-top: 100px;
+	border-top: 1px solid #d0d0d0;
+	padding-top: 13px;
+
+}
+
+#footer .social-link {
+	margin-right: 10px;
+}
+
+#footer .social-link:hover, #footer .social-link:hover img {
+	text-decoration: none;
+}
+
+#footer .social-link img {
+	width: 2rem;
+	height: 2rem;
+}
+
+#footer .copyright-text {
+	margin-top: 10px;
+}

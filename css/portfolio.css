@@ -1,0 +1,42 @@
+.section-portfolio .portfolio-category {
+	font-size: 32px;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-align: center;
+	/*margin-top: 40px;*/
+	margin-bottom: 40px;
+}
+
+.section-portfolio {
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+
+.embed-responsive-logo {
+	padding-top: 57.5%;
+}
+
+.embed-responsive-poster {
+	padding-top: 110%;
+}
+
+.embed-responsive-poster .embed-responsive-item {
+	object-fit: cover;
+}
+
+.embed-responsive-illustration {
+	padding-top: 100%;
+}
+
+.embed-responsive-illustration-tall {
+	padding-top: 200%;
+}
+
+.embed-responsive-illustration-short {
+	padding-top: 50%;
+}
+
+.embed-responsive-illustration .embed-responsive-item,
+.embed-responsive-illustration-tall .embed-responsive-item {
+	object-fit: cover;
+}

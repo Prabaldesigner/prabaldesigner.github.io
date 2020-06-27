@@ -1,0 +1,38 @@
+#section-service .service-box {
+	margin-top: 80px;
+	margin-bottom: 100px;
+	box-shadow: 0 4px 75px rgba(0, 0, 0, 0.25);
+}
+
+@media (min-width: 992px) {
+
+	#section-service .service-img {
+		margin-top: 55px;
+		margin-bottom: 55px;
+	}
+}
+
+
+#section-service .order-2 .service-img {
+	/*padding-left: 3rem;
+	padding-right: 1.5rem;*/
+}
+
+#section-service .service-name {
+	font-weight: 800;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+
+	#section-service .service-name {
+		font-size: 146px;
+		color: rgba(0, 0, 0, 0.13);
+		line-height: 85%;
+	}
+}
+
+#section-service .service-description {
+	margin-top: 22px;
+}
